@@ -1,4 +1,18 @@
+/*
 body {
     background: #CFCFCD;
     background: linear-gradient(to top, #CFCFCD 0%, #262121 95%);
+}
+*/
+body {
+    margin: 0 auto;
+}
+
+.padding-spacer {
+    margin-top: 2%;
+}
+
+.icon-social {
+    width: 6%;
+    height: 6%;
 }
