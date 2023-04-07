@@ -7,33 +7,53 @@
     <title>Portfolio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="./src/css/styles.css">
 </head>
 
 <body>
     <!-- NAVBAR -->
     <nav class="navbar navbar-light bg-dark">
-        <div class="container-fluid">
-            <div class="text-center">
+        <div class="container">
+
+            <div class="text-start">
                 <a class="navbar-brand" href="#" style="margin-left: 10px;">
-                    <img src="./src/images/logoArgPrograma.png" alt="" width="40" height="33"
+                    <img src="./src/images/logoArgPrograma02.png" alt="" width="90" height="29"
                         class="d-inline-block align-text-top">
                 </a>
             </div>
-            <form class="d-flex">
+
+            <div class="text-end">
+                <a class="navbar-brand" href="#" style="margin: 0px;">
+                    <img src="./src/images/linkedin_logo.png" class="" width="40" height="40" alt="linkedIn">
+                </a>
+                <a class="navbar-brand" href="#" style="margin: 0px;">
+                    <img src="./src/images/instagram_logo.png" class="" width="40" height="40" alt="instagram">
+                </a>
+                <a class="navbar-brand" href="#" style="margin: 0px;">
+                    <img src="./src/images/gmail_logo.png" class="" width="40" height="40" alt="gmail">
+                </a>
                 <button class="btn btn-outline-success" type="submit">Login</button>
-            </form>
+            </div>
         </div>
     </nav>
 
     <!-- HOME -->
-    <div class="containter">
+    <div class="containter ">
         <div class="position-relative">
-            <img src="./src//images/portfolio01.jpg" class="img-fluid" alt="..." style="height: auto; max-width: 100%;">
-            <img src="./src/images/lasLenias.jpg" class="img-fluid rounded-circle position-absolute bottom-0 start-0"
-                alt="..." style="width: 20%; margin-bottom: -10%; margin-left: 2%;">
+            <img src="./src//images/portfolio01.jpg" class="img-fluid" alt="..." style="height: auto; ">
+            <img src="./src/images/lasLenias.jpg" class="rounded-circle position-absolute bottom-0 start-0" alt="..."
+                style="width: 20%; max-height: 70%; margin-bottom: -10%; margin-left: 2%;">
         </div>
-        <div class="container" style="margin-top: 300px;">
+        <!-- div creado para sobredimensionar banner, para ajustar a las dimensiones de avatar -->
+        <div class="" style="background-color: white; max-height: 8%; padding-top: 10%;"></div>
+
+    </div>
+
+    <div class="container border border-top-0 rounded" style="padding-top: 1%; padding-bottom: 1%;">
+        <div class="container">
+            <div class="row">
+                <h2>icono de Editar</h2>
+            </div>
             <div class="row">
                 <div class="col">
                     <h3>Nombre y Apellido</h3>
@@ -58,7 +78,7 @@
     </div>
 
     <!-- ABOUT-->
-    <div class="container border rounded" style="margin-top: 30px;">
+    <div class="container border rounded padding-spacer" style="padding-top: 1%; padding-bottom: 1%;">
         <p class="fs-4 fw-bold">Acerca de</p>
         <p class="fs-7 fw-light">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam aliquid consequatur,
             natus delectus esse at quia nemo laudantium ratione deserunt illum modi suscipit laborum dignissimos sit!
@@ -66,10 +86,33 @@
     </div>
 
     <!-- EXPERIENCE, EDUCATION -->
-    <div></div>
+    <div class="container border rounded padding-spacer" style="padding-top: 1%; padding-bottom: 1%;">
+
+        <div class="row">
+            <p class="fs-4 fw-bold">Experiencia</p>
+            <p class="fs-7 fw-light">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam aliquid
+                consequatur,
+                natus delectus esse at quia nemo laudantium ratione deserunt illum modi suscipit laborum dignissimos
+                sit!
+                Aspernatur quae odit ad.</p>
+        </div>
+
+        <div class="row">
+            <p class="fs-4 fw-bold">Educación</p>
+            <p class="fs-7 fw-light">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam aliquid
+                consequatur,
+                natus delectus esse at quia nemo laudantium ratione deserunt illum modi suscipit laborum dignissimos
+                sit!
+                Aspernatur quae odit ad.</p>
+        </div>
+
+    </div>
+
+    <!-- SPACER-->
+    <div style="margin-top: 2%;"></div>
 
     <!-- PORTFOLIO -->
-    <div class="container">
+    <div class="container border rounded padding-spacer">
         <div class="row justify-content-md-center " style="padding-top: 20px;">
             <p class="fs-4 fw-bold text-center ">Portfolio</p>
             <hr>
@@ -128,6 +171,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous">
         </script>
+    <!-- Our project just needs Font Awesome solid + brand -->
+    <script defer src="/your-path-to-fontawesome/js/brands.js"></script>
+    <script defer src="/your-path-to-fontawesome/js/solid.js"></script>
+    <script defer src="/your-path-to-fontawesome/js/fontawesome.js"></script>
 </body>
 
 </html>
